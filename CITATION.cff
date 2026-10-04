@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived release on Zenodo."
+type: software
+title: "Atlantic residual diffusion"
+version: "1.0.0"
+authors:
+  - family-names: Ulmer
+    given-names: Ben
+repository-code: "https://github.com/benwulmer/atlantic-diffusion"
+url: "https://github.com/benwulmer/atlantic-diffusion"
+license: MIT
+abstract: >-
+  Conditional diffusion downscaling of ECMWF SEAS5 seasonal forecasts over the
+  North Atlantic. The model generates weather fields by adding a learned
+  residual to an individual SEAS5 ensemble member, using ERA5 as the training
+  target. This repository contains code for data acquisition, preprocessing,
+  model training, and ensemble sampling. Input datasets and trained model
+  weights are not included.
+keywords:
+  - diffusion models
+  - seasonal forecasts
+  - downscaling
+  - North Atlantic
+  - SEAS5
+  - ERA5
