@@ -3,6 +3,8 @@ message: "If you use this software, please cite the archived release on Zenodo."
 type: software
 title: "Atlantic residual diffusion"
 version: "1.0.0"
+date-released: "2026-10-05"
+doi: "10.5281/zenodo.23149631"
 authors:
   - family-names: Ulmer
     given-names: Ben

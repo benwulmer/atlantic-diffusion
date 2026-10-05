@@ -1,9 +1,21 @@
 # Atlantic residual diffusion
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23149630.svg)](https://doi.org/10.5281/zenodo.23149630)
+
 Conditional diffusion downscaling of ECMWF SEAS5 seasonal forecasts over the North
 Atlantic. The model generates weather fields by adding a learned residual to an
 individual SEAS5 ensemble member, using ERA5 as the training target.
 
+## Citation
+
+For work using version 1.0.0, please cite the archived release:
+
+> Ulmer, B. (2026). *Atlantic residual diffusion* (Version 1.0.0) [Software].
+> Zenodo. https://doi.org/10.5281/zenodo.23149631
+
+The [all-versions DOI](https://doi.org/10.5281/zenodo.23149630) identifies the
+project across releases. Citation metadata is also available in
+[CITATION.cff](CITATION.cff).
 
 ## Setup
 
